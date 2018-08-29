@@ -10,7 +10,7 @@
     <div class="nav nav-bottom">
       <a href="https://www.linkedin.com/in/jinnwang/" target="_blank">@jinnwang</a>
       <span>&nbsp;/ View Source on
-        <a href="https://github.com/jinnrw" target="_blank">GitHub</a>
+        <a href="https://github.com/jinnrw/my-website-in-vue" target="_blank">GitHub</a>
       </span>
     </div>
   </div>

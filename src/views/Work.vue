@@ -26,7 +26,7 @@
       <div class="work-list_item" v-for="(project, i) in store.Work.other_works" :key="i">
         <a class="item_link" :href="project.href" target="_blank">
           <div class="item_thumb-img">
-            <img src="../assets/apple-tv-framer.png" alt="">
+            <img :src="project.thumbnail" alt="">
           </div>
           <div class="item_link_content">
             <h4 class="item_title">{{project.title}}</h4>
@@ -104,6 +104,7 @@ export default {
     }
 
     .top_item_thumb {
+      max-width: 480px;
       padding: 0 30px;
     }
   }
@@ -161,6 +162,7 @@ export default {
 
   img {
     width: 100%;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.05);
   }
 }
 
@@ -222,7 +224,7 @@ export default {
   }
 
   .item_thumb-img {
-    // height: 200px;
+    height: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,6 +233,9 @@ export default {
 
     img {
       width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
     }
   }
 }
