@@ -25,7 +25,7 @@ export default new Router({
     }
   ],
   // Scroll to top for every new route switching
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior() {
     return { x: 0, y: 0 }
   }
 })

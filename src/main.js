@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueGtag from "vue-gtag";
 import router from './router'
 // import VueFire from 'vuefire'
-import firebase from 'firebase/app'
 import 'firebase/firestore'
 // import { config } from './firebaseConfig'
 // Vue.use(VueFire)
@@ -16,6 +16,10 @@ import 'firebase/firestore'
 // db.settings(settings);
 
 Vue.config.productionTip = false
+
+Vue.use(VueGtag, {
+  config: { id: "UA-156025191-1" }
+});
 
 new Vue({
   router,
