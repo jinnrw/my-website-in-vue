@@ -10,7 +10,7 @@
             <p class="top_item_desc" v-html="project.desc"></p>
           </div>
           <div class="top_item_thumb">
-            <img :src="project.thumbnail" alt="">
+            <img :src="`/img/${project.thumbnail}`" alt="">
           </div>
           <div class="top_item_cta">
               <svg width="36px" height="10px" viewBox="1206 658 36 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -26,7 +26,7 @@
       <div class="work-list_item" v-for="(project, i) in store.Work.other_works" :key="i">
         <a class="item_link" :href="project.href" target="_blank">
           <div class="item_thumb-img">
-            <img :src="project.thumbnail" alt="">
+            <img :src="`/img/${project.thumbnail}`" alt="">
           </div>
           <div class="item_link_content">
             <h4 class="item_title">{{project.title}}</h4>

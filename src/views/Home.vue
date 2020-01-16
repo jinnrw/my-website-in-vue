@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="hero">
-      <img src="../assets/hero_avatar.png" class="avatar">
+      <img src="/img/hero_avatar.png" class="avatar">
       
       <div class="hero_intro">
         <h1 v-html="store.Home.hero_text"></h1>
