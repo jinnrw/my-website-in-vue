@@ -11,3 +11,4 @@ My personal website [jinnwang.site](http://jinnwang.site/) was built in Vue and 
 
 ### Future updates
 - Enable https connection
+- Add a link of my [blog](https://blog-jinnwang.web.app/)
