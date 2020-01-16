@@ -3,7 +3,7 @@ import App from './App.vue'
 import VueGtag from "vue-gtag";
 import router from './router'
 // import VueFire from 'vuefire'
-import 'firebase/firestore'
+// import 'firebase/firestore'
 // import { config } from './firebaseConfig'
 // Vue.use(VueFire)
 
