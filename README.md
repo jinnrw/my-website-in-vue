@@ -8,7 +8,3 @@ My personal website [jinnwang.site](http://jinnwang.site/) was built in Vue and 
 - Vue router
 - Vue-gtag for google analytics
 - Firebase
-
-### Future updates
-- Enable https connection
-- Add a link of my [blog](https://blog-jinnwang.web.app/)
